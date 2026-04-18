@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /style.css
+Allow: /script.js
+Allow: /Images/
+
+# Disallow specific admin or private pages if any
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://c-techrepair.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
