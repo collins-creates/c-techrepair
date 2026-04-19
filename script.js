@@ -164,3 +164,16 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
     console.log('C-Tech website loaded successfully!');
 })();
+
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+        navigator.serviceWorker.register('service-worker.js')
+            .then(function (registration) {
+                console.log('Service Worker registered with scope:', registration.scope);
+            })
+            .catch(function (error) {
+                console.warn('Service Worker registration failed:', error);
+            });
+    });
+}
+
