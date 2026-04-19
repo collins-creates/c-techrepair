@@ -125,28 +125,24 @@ footer {
 
 /* Contact Links Styling */
 .contact-link {
-    color: #007bff;
+    color: #00366e;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
     transition: all 0.3s ease;
     border-bottom: 1px solid transparent;
 }
 
-.contact-link:hover {
-    color: #0056b3;
+.contact-link:hover,
+.contact-link:focus {
+    color: #001f3f;
     text-decoration: none;
-    border-bottom-color: #0056b3;
-    transform: translateY(-1px);
+    border-bottom-color: #001f3f;
+    outline: none;
 }
 
-.contact-link:hover {
-        border-bottom-color: #0056b3;
-        transform: none;
-    }
-    
-    .contact-link:active {
-        background-color: rgba(0, 123, 255, 0.1);
-        border-radius: 3px;
+.contact-link:active {
+    background-color: rgba(0, 54, 110, 0.1);
+    border-radius: 3px;
 }
 
 /* Premium Form Styling */
