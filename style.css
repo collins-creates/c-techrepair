@@ -39,6 +39,28 @@ header {
     transform: translateY(-1px);
 }
 
+.icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.3rem;
+    line-height: 1;
+}
+
+.service-icon {
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+.contact-icon {
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+
+.social-icon {
+    font-size: 1.1rem;
+}
+
 .navbar-nav .nav-link::after {
     content: '';
     position: absolute;
